@@ -102,5 +102,6 @@ Withdraw Screen
 ![image](https://github.com/user-attachments/assets/7eb82535-f29c-4e3f-b316-b114e97fb3e5)                 
 
 Mini Statement screen           
-![image](https://github.com/user-attachments/assets/fcc129fd-cd4c-414b-a7e4-829aea83c406)                   
+![image](https://github.com/user-attachments/assets/a0c8cf4c-14d5-4610-8e6e-ed9b4824505a)
+                  
 
