@@ -78,8 +78,12 @@ After the script is loaded, click the lightning bolt icon (or press Ctrl+Shift+E
 2. Import the project into your IDE.              
 3. Ensure that MySQL is running and the database and tables are set up as described above.          
 4. Run the <b>Login.java</b> class to start the application.              
-<br><br>
+5. To ensure that the application connects to your MySQL database correctly, you need to create a config.properties file in the root directory of your project. This file should contain the following properties:
+   
+![image](https://github.com/user-attachments/assets/2ba31d62-654d-4204-bf2c-b0d5e402e067)                
 
+
+<br><br>
 <b>some smaple screenshots</b>               
 <br>
 Login Screen            
