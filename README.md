@@ -29,20 +29,40 @@ User data, transactions, and account information are stored in a MySQL database.
 <br><br>
 
 
-# FILE STRUCTURE       
-
-bank.management.system :-  Contains all Java classes for the application.              
-Conn.java :-  Manages database connection.                 
-Login.java :-  Handles the login process.               
-SignupOne.java, SignupTwo.java, SignupThree.java :-  User registration process.                  
-Transaction.java :-  Main screen after login, offering various banking operations.                           
-PinChange.java :-  Allows users to change their PIN.                    
-Deposit.java :-  Handles the deposit operation.                 
-Withdraw.java :-  Handles the withdrawal operation.                         
-FastCash.java :-  Facilitates quick withdrawals.              
-MiniStatement.java :-  Displays recent transactions.                 
-BalanceEnquiry.java :-  Displays current account balance. 
-database_setup.sql :-  commands for setting up database.          
+# FILE STRUCTURE   
+```
+src
+├── database_setup.sql
+├── config.properties
+├── icons
+└── bank.management.system 
+     ├── BalanceEnquiry.java
+     ├── Conn.java
+     ├── Deposit.java
+     ├── FastCash.java
+     ├── Login.java
+     ├── MiniStatement.java
+     ├── PinChange.java
+     ├── Transaction.java
+     ├── Withdraw.java
+     ├── SignupOne.java
+     ├── SignupThree.java
+     ├── SignupTwo.java
+     └──JIntegerField
+          ├── JIntegerPasswordField.java
+          └──JIntegerTextField.java
+```
+     
+BalanceEnquiry.java -  Displays current account balance. 
+Conn.java -  Manages database connection.                 
+Deposit.java -  Handles the deposit operation.                 
+FastCash.java -  Facilitates quick withdrawals.              
+Login.java -  Handles the login process.               
+MiniStatement.java -  Displays recent transactions.                 
+PinChange.java -  Allows users to change their PIN.                    
+SignupOne.java, SignupTwo.java, SignupThree.java -  User registration process.                  
+Transaction.java -  Main screen after login, offering various banking operations.                           
+Withdraw.java -  Handles the withdrawal operation.                                   
 <br><br>
 
 # DATABASE SETUP      
