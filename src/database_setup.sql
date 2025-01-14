@@ -48,7 +48,6 @@ CREATE TABLE bank(
     type varchar(20),
     amount varchar(30)
 );
-drop table bank;
 
 select * from signup;
 select * from signupTwo;
