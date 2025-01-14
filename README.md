@@ -68,10 +68,7 @@ Withdraw.java -  Handles the withdrawal operation.
 # DATABASE SETUP      
           
 ### Using Command Line  
-1. navigate to folder containg database_setup.sql file
-   ```bash
-   cd src/database_setup.sql
-   ```
+1. navigate to ```src``` folder containg database_setup.sql file
 2. Log into MySQL (replace root with your MySQL username, and you'll be prompted for your password).      
    ```bash
    mysql -u root -p
@@ -93,7 +90,7 @@ Withdraw.java -  Handles the withdrawal operation.
 1. Clone the repository           
 2. Import the project into your IDE.           
 3. Ensure that MySQL is running and the database and tables are set up as described above.                          
-4. create ```config.properties``` file containing mySql credentials in the root directory of your project                             
+4. create ```config.properties``` file containing mySql credentials in the ```src directory``` of your project                             
    ```bash
    db.url = jdbc:mysql://localhost:3306/bankSystem
    db.username = root
