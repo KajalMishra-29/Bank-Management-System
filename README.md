@@ -53,16 +53,16 @@ src
           └──JIntegerTextField.java
 ```
      
-BalanceEnquiry.java -  Displays current account balance. 
-Conn.java -  Manages database connection.                 
+BalanceEnquiry.java -  Displays current account balance.           
+Conn.java -  Manages database connection.                  
 Deposit.java -  Handles the deposit operation.                 
 FastCash.java -  Facilitates quick withdrawals.              
 Login.java -  Handles the login process.               
 MiniStatement.java -  Displays recent transactions.                 
 PinChange.java -  Allows users to change their PIN.                    
-SignupOne.java, SignupTwo.java, SignupThree.java -  User registration process.                  
-Transaction.java -  Main screen after login, offering various banking operations.                           
-Withdraw.java -  Handles the withdrawal operation.                                   
+SignupOne.java, SignupTwo.java, SignupThree.java -  User registration process.                                 
+Transaction.java -  Main screen after login, offering various banking operations.                               
+Withdraw.java -  Handles the withdrawal operation.                                          
 <br><br>
 
 # DATABASE SETUP      
@@ -83,17 +83,17 @@ Withdraw.java -  Handles the withdrawal operation.
 
 ### Using MySQL Workbench      
 1. Open MySQL Workbench.          
-2. Connect to your MySQL server using your credentials.                    
-3. File > Open SQL Script and select the database_setup.sql file.               
-4. click the lightning bolt icon (or press Ctrl+Shift+Enter) to execute the SQL commands.                
+2. Connect to your MySQL server using your credentials.                                
+3. File > Open SQL Script and select the database_setup.sql file.                                                     
+4. click the lightning bolt icon (or press Ctrl+Shift+Enter) to execute the SQL commands.                     
 <br><br>
 
 
 ## How to Run             
 1. Clone the repository           
 2. Import the project into your IDE.           
-3. Ensure that MySQL is running and the database and tables are set up as described above.
-4. create ```config.properties``` file containing mySql credentials in the root directory of your project
+3. Ensure that MySQL is running and the database and tables are set up as described above.                          
+4. create ```config.properties``` file containing mySql credentials in the root directory of your project                             
    ```bash
    db.url = jdbc:mysql://localhost:3306/bankSystem
    db.username = root
